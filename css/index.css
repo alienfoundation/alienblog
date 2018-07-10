@@ -93,6 +93,8 @@ nav {
 }
 
 .book-container {
+    height: auto;
+    border-radius: 2px;
     background: #e9e9e9;
     text-align: center;
     font-family: "Tinos", sans-serif;
