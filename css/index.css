@@ -98,6 +98,10 @@ nav {
     font-family: "Tinos", sans-serif;
 }
 
+.book-container p {
+    font-size: 16px;
+}
+
 .book-container em {
     color: olive;
 }
@@ -106,9 +110,5 @@ nav {
     .al-article {
         width: 112%;
         margin-left: -6%;
-    }
-
-    .book-container p {
-        font-size: 16px;
     }
 }
