@@ -102,11 +102,13 @@ nav {
     color: olive;
 }
 
-
-
 @media (max-width: 500px) {
     .al-article {
         width: 112%;
         margin-left: -6%;
+    }
+
+    .book-container p {
+        font-size: 16px;
     }
 }
