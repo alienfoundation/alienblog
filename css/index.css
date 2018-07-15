@@ -108,6 +108,13 @@ nav {
     color: olive;
 }
 
+.al-bitmoji {
+    display: block;
+    height: 150px;
+    margin: auto;
+    margin-top: -30px;
+}
+
 @media (max-width: 500px) {
     .al-article {
         width: 112%;
