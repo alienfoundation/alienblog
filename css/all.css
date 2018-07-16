@@ -1,0 +1,18 @@
+.all-topic {
+    display: block;
+    background: #fff;
+    padding: 5px 20px;
+    border-radius: 4px;
+    border: 1px dashed #e9e9e9;
+    margin-bottom: 20px;
+}
+
+a.all-topic h5 {
+    font-family: "Satisfy", cursive;
+    color: #333;
+}
+
+a.all-topic p {
+    font-family: "Exo 2", cursive;
+    color: #888;
+}
