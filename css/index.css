@@ -1,5 +1,6 @@
 body {
-    background: #fafafa;
+    background: #fff;
+    padding-top: 60px;
 }
 
 nav {
@@ -7,15 +8,29 @@ nav {
 }
 
 .al-head {
-    margin-top: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
     margin-bottom: 10px;
+    background: #222;
+    padding: 12px 0 3px;
 }
 
 .al-head h1 {
     font-family: 'Tangerine', cursive;
-    color: #333;
+    color: #fafafa;
     text-align: center;
     margin: 0;
+    font-size: 35px;
+}
+
+.al-head h1 span {
+    font-family: "Exo 2", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    display: inline-block;
+    margin-left: 10px;
 }
 
 .header {
@@ -34,6 +49,7 @@ nav {
     font-weight: 500;
     border-radius: 2px;
     padding: 10px 20px;
+    display: none;
 }
 
 .al-side-head {
@@ -78,8 +94,11 @@ nav {
 }
 
 .al-article-head h4 {
-    color: #48484a;
-    font-family: "Satisfy", cursive;
+    color: #222;
+    font-family: "Open Sans", cursive;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: -20px;
 }
 
 .al-article {
@@ -89,23 +108,26 @@ nav {
     padding-bottom: 20px;
 }
 
-.al-pen-name {
-    text-align: right;
-    font-family: 'Tangerine', cursive;
-    color: #999;
-    font-size: 30px;
-    margin: 0;
-}
-
 .al-article-date {
     font-family: "Tinos", sans-serif;
-    color: #666;
+    color: #555;
     font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.al-pen-name {
+    font-family: 'Tinos', sans-serif;
+    color: #222;
+    font-size: 20px;
+    margin: 0;
+    font-size: 16px;
+    display: inline-block;
+    border-bottom: 3px solid #FF9800;
 }
 
 .al-article-content {
     font-family: "Tinos", sans-serif;
-    color: #444;
+    color: #222;
     font-size: 16px;
 }
 
