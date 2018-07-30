@@ -137,7 +137,7 @@ nav {
     height: auto;
     border-radius: 2px;
     padding: 0 !important;
-    font-family: "Raleway", sans-serif;
+    font-family: "Tinos", sans-serif;
     font-weight: 500;
     box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.2);
 }
@@ -146,7 +146,7 @@ nav {
     height: 200px;
     background: url("../images/book1.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
 }
 
 .book-container-content {
