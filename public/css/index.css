@@ -146,7 +146,7 @@ nav {
     height: 200px;
     background: url("../images/book1.jpg");
     background-size: cover;
-    background-position: bottom;
+    background-position: center left;
 }
 
 .book-container-content {
@@ -154,7 +154,7 @@ nav {
 }
 
 .book-container p {
-    font-size: 14px;
+    font-size: 15px;
     color: #444;
     line-height: 19px;
 }
@@ -176,6 +176,11 @@ nav {
     height: 150px;
     margin: auto;
     margin-top: -30px;
+}
+
+.posts-section {
+    margin-top: 10px;
+    background: #fff;
 }
 
 @media (max-width: 500px) {
