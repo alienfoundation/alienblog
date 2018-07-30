@@ -1,5 +1,5 @@
 body {
-    background: #fff;
+    background: #fafafa;
     padding-top: 34px;
 }
 
@@ -133,6 +133,7 @@ nav {
 }
 
 .book-container {
+    background: #fff;
     height: auto;
     border-radius: 2px;
     padding: 0 !important;
