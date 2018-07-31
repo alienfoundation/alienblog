@@ -3,6 +3,11 @@ body {
     padding-top: 34px;
 }
 
+body#article {
+    background: #fff;
+    padding-top: 45px;
+}
+
 nav {
     text-align: center;
 }
@@ -175,12 +180,59 @@ nav {
     display: block;
     height: 150px;
     margin: auto;
-    margin-top: -30px;
+    margin-top: -10px;
 }
 
 .posts-section {
     margin-top: 10px;
     background: #fff;
+    padding: 10px 20px;
+}
+
+.post-img {
+    height: 200px;
+    background: url("../images/book.jpg");
+    background-size: cover;
+    background-position: center left;
+}
+
+a.recent {
+    background: #f8ffe4;
+    display: block;
+    border-radius: 2px;
+}
+
+a.recent p.heading {
+    color: #222;
+    margin: 0;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.post {
+    margin-bottom: 30px;
+}
+
+
+a.recent .post-content {
+    padding: 5px 10px 1px;
+}
+
+.post-content h6 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 0;
+    color: #222;
+}
+
+.post-content p {
+    color: #666;
+    font-size: 14px;
+    margin-top: 2px;
+    font-family: "Tinos", sans-serif;
 }
 
 @media (max-width: 500px) {
