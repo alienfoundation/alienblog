@@ -196,10 +196,14 @@ nav {
     background-position: center left;
 }
 
-a.recent {
-    background: #f8ffe4;
+a.post-link {
+    background: #fafafa;
     display: block;
     border-radius: 2px;
+}
+
+a.post-link.recent {
+    background: #f8ffe4;
 }
 
 a.recent p.heading {
@@ -216,7 +220,7 @@ a.recent p.heading {
 }
 
 
-a.recent .post-content {
+.post-content {
     padding: 5px 10px 1px;
 }
 

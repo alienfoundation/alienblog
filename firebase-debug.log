@@ -1,26 +1,38 @@
-[debug] [2018-07-31T05:02:07.214Z] ----------------------------------------------------------------------
-[debug] [2018-07-31T05:02:07.216Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
-[debug] [2018-07-31T05:02:07.216Z] CLI Version:   3.19.3
-[debug] [2018-07-31T05:02:07.216Z] Platform:      darwin
-[debug] [2018-07-31T05:02:07.216Z] Node Version:  v8.10.0
-[debug] [2018-07-31T05:02:07.217Z] Time:          Tue Jul 31 2018 10:32:07 GMT+0530 (IST)
-[debug] [2018-07-31T05:02:07.217Z] ----------------------------------------------------------------------
+[debug] [2018-07-31T05:07:34.374Z] ----------------------------------------------------------------------
+[debug] [2018-07-31T05:07:34.376Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-07-31T05:07:34.376Z] CLI Version:   3.19.3
+[debug] [2018-07-31T05:07:34.376Z] Platform:      darwin
+[debug] [2018-07-31T05:07:34.376Z] Node Version:  v8.10.0
+[debug] [2018-07-31T05:07:34.377Z] Time:          Tue Jul 31 2018 10:37:34 GMT+0530 (IST)
+[debug] [2018-07-31T05:07:34.377Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-07-31T05:02:07.240Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-07-31T05:02:07.240Z] > authorizing via signed-in user
-[debug] [2018-07-31T05:02:07.242Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-07-31T05:02:07.242Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- { refresh_token: '1/kwU7GUq95Y9Ayt2bbqgwjJD20u5QO-Kg2ZMTN9OO4LM',
-  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
-  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
-  grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Tue Jul 31 2018 10:32:07 GMT+0530 (IST)
-[debug] [2018-07-31T05:02:07.599Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-31T05:02:07.623Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/alienwrite-7c693  
+[debug] [2018-07-31T05:07:34.395Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-31T05:07:34.396Z] > authorizing via signed-in user
+[debug] [2018-07-31T05:07:34.398Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/alienwrite-7c693  
   
- Tue Jul 31 2018 10:32:07 GMT+0530 (IST)
-[debug] [2018-07-31T05:02:09.201Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-31T05:02:09.202Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/alienwrite-7c693/tokens  
+ Tue Jul 31 2018 10:37:34 GMT+0530 (IST)
+[debug] [2018-07-31T05:07:35.791Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-31T05:07:35.793Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/alienwrite-7c693/tokens  
   
- Tue Jul 31 2018 10:32:09 GMT+0530 (IST)
+ Tue Jul 31 2018 10:37:35 GMT+0530 (IST)
+[debug] [2018-07-31T05:07:36.851Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'alienwrite-7c693'...
+[info] 
+[info] i  deploying database, hosting
+[info] i  database: checking rules syntax...
+[debug] [2018-07-31T05:07:38.457Z] >>> HTTP REQUEST PUT https://alienwrite-7c693.firebaseio.com/.settings/rules.json?dryRun=true  
+ {
+  /* Visit https://firebase.google.com/docs/database/security to learn more about security rules. */
+  "rules": {
+    ".read": false,
+    ".write": false
+  }
+} 
+ Tue Jul 31 2018 10:37:38 GMT+0530 (IST)
+[debug] [2018-07-31T05:07:39.776Z] <<< HTTP RESPONSE 200
+[info] ✔  database: rules syntax for database alienwrite-7c693 is valid
+[info] i  hosting: preparing public directory for upload...
+[debug] [2018-07-31T05:07:41.203Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/alienwrite-7c693/uploads/-LIij-yRliVXVQRCRhkB?fileCount=17&message=  
+  
+ Tue Jul 31 2018 10:37:41 GMT+0530 (IST)
