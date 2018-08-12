@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "alienwrite-7c693"
+    "default": "alienwrite-7c693",
+    "database": "alienwrite-7c693"
   }
 }

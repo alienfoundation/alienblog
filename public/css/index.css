@@ -22,6 +22,33 @@ nav {
     padding: 12px 0 3px;
 }
 
+.al-head .menu-container .menu-btn {
+    position: fixed;
+    left: 16px;
+    top: 9px;
+    font-size: 25px;
+}
+
+.al-head .menu-container .menu-btn .btn-icon {
+    color: #fff;
+}
+
+.menu-options {
+    position: fixed;
+    margin-top: 43px;
+    height: 100%;
+    width: 75%;
+    background: #222;
+    box-shadow: 2px 0 20px -5px rgba(0, 0, 0, 0.8);
+    left: -100%;
+    transition: all 0.5s;
+}
+
+.menu-options ul li {
+    color: #fff;
+    padding: 7px 20px;
+}
+
 .al-head h1 {
     font-family: 'Tangerine', cursive;
     color: #fafafa;
@@ -174,6 +201,28 @@ nav {
 
 .book-container-shadow p:last-of-type {
     margin-bottom: 0;
+}
+
+.feedback-container {
+    display: block;
+    background: #fff;
+    text-align: center;
+    padding: 10px 10px 20px;
+    box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.2);
+}
+
+.feedback-divider {
+    border: none;
+    border-top: 1px solid orange;
+    width: 75px;
+}
+
+.feedback-container a {
+    display: inline-block;
+    background: #FF9800;
+    border-radius: 2px;
+    padding: 6px 12px;
+    color: #fff;
 }
 
 .al-bitmoji {

@@ -1,0 +1,59 @@
+.postWrapper {
+    padding-bottom: 30px;
+}
+
+.postWrapper a {
+    text-decoration: none;
+}
+
+.post {
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.postHeading h5 {
+    font-weight: 600;
+    line-height: 18px;
+    margin-bottom: 8px;
+    color: #111;
+}
+
+.postImage {
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 7px;
+}
+
+.postImage.pi1 {
+    background: url('../../images/thinking.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.postImage.pi2 {
+    background: url('../../images/distract.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.postImage.pi3 {
+    background: url('../../images/change.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.postContent p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.postFirstLine {
+    color: #666;
+}
+
+.postDate {
+    font-family: "Tinos", sans-serif;
+    margin-top: 3px !important;
+    color: #666;
+    font-weight: 600;
+}

@@ -1,0 +1,17 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: #fcfcfc;
+    padding: 8px;
+    box-shadow: 0px 8px 16px -10px rgba(0,0,0,0.5);
+}
+
+nav .brandName h1 {
+    margin: 0;
+    padding-top: 8px;
+    color: #111;
+    font-family: "Tangerine", cursive;
+}
